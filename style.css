@@ -1,0 +1,42 @@
+body{
+    text-align: ;
+    background: linear-gradient(135deg, #6A3FD9 0%, #3B1E6D 40%, #0A0F2C 100%);
+    font-family: sans-serif;
+    text-align: center;
+}
+h1 {
+  background: linear-gradient(90deg, #C084FC, #E9D5FF);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 80;
+}
+input{
+  background: rgba(25, 15, 60, 0.75);
+  border-radius: 18px;
+  backdrop-filter: blur(10px);
+  color: white;
+  padding: 15;
+  border: solid whitesmoke;
+  margin: 10px;
+  width: 350px;
+}
+button {
+  background: linear-gradient(135deg, #8B5CF6, #6D28D9);
+  color: white;
+  border: solid;
+  padding: 16px 22px;
+  border-radius: 10px;
+  transition: 0.3s;
+  font-weight: 900;
+  cursor: pointer;
+}
+
+button:hover {
+  box-shadow: 0 0 10px #8B5CF6,
+              0 0 20px #8B5CF6,
+              0 0 40px #8B5CF6;
+  transform: scale(1.05);
+}
+#signupBtn{
+    margin-top: 12px;
+}
